@@ -267,13 +267,6 @@ go test ./internal/integration/...
 - Worker pool (100 concurrent workers)
 - Graceful degradation on high load
 
-## Performance
-
-- **Response Time**: < 10ms for cached URLs
-- **Throughput**: 10,000+ requests/second
-- **Concurrency**: Built-in connection pooling
-- **Scalability**: Horizontal scaling ready
-
 ## Roadmap
 
 - [ ] **User Accounts**: Authentication and personalized dashboard.
@@ -293,13 +286,3 @@ go test ./internal/integration/...
 - Logging with [zerolog](https://github.com/rs/zerolog)
 - Database access via [pgx](https://github.com/jackc/pgx)
 - Redis client: [go-redis](https://github.com/redis/go-redis)
-
-## 🤝 Contributing
-
-Contributions are welcome! This is a personal project for learning, but I'm open to feedback and improvements.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
